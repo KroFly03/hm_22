@@ -49,7 +49,7 @@ class Car(Transport):
         print('Машина остановилась')
 
 
-class Electroscooter(Transport):
+class ElectroScooter(Transport):
     def start_engine(self):
         print('Мигнул светодиодом')
 
@@ -75,7 +75,7 @@ class Person:
 if __name__ == '__main__':
     boat = Boat()
     car = Car()
-    kamikadze = Electroscooter()
+    kamikadze = ElectroScooter()
 
     person = Person()
     person.use_transport(boat)
